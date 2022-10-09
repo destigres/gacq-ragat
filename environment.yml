@@ -1,0 +1,72 @@
+name: ragat
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+  - dglteam
+  - anaconda
+prefix: /opt/anaconda3/envs/DRKG
+dependencies:
+  - python # todo: upgrade to latest?
+  - pytorch # todo: upgrade to latest?
+  - cudatoolkit>=10.1
+  - pip
+  # - ipykernel
+  - pandas
+  - numpy
+  # - dgl=0.4.3
+  # - requests
+
+  # - pandas
+  # - transformers
+  # - nomkl # support for transformers
+  # - huggingface_hub
+  # - cudatoolkit>=11.4
+  # - pytorch=1.12.1=py3.9_cuda11.6_cudann8.3.2_0 
+  # - numpy
+  - click
+  - pathlib
+  # - pytables
+  - tensorboard
+  - tensorflow
+  - matplotlib
+  - numpy
+  # - datasets=2.4.0
+  - ordered-set
+
+  - tqdm
+  - pip:
+    - black
+    - dglke
+
+# name: ragat
+# channels:
+#   # - pytorch-nightly
+#   - pytorch
+#   - conda-forge
+#   - defaults
+
+# # channel_priority: true
+# prefix: /opt/anaconda3/envs/nmi
+# dependencies:
+#   - python=3.9
+#   - pip
+#   - pandas
+#   # - transformers
+#   # - nomkl # support for transformers
+#   # - huggingface_hub
+#   - cudatoolkit>=11.4
+#   - pytorch=1.12.1=py3.9_cuda11.6_cudann8.3.2_0 
+#   - numpy
+#   - click
+#   - pathlib
+#   - pytables
+#   - tensorboard
+#   - tensorflow
+#   - matplotlib
+#   - numpy
+#   # - datasets=2.4.0
+#   - ordered-set
+#   - pip:
+#     - black==22.6.0
+#     # - scikit-learn==1.1.2
